@@ -1,0 +1,13 @@
+node_modules/
+dados_para_envio_dnfleet.json
+.env
+DB/
+DB/DATABASE.GDB
+routes/pedidos_status.js
+routes/pedidos2.js
+routes/pedidos4
+routes/pedidosnew.js
+insertMdeFake.js
+inspecionar_mdfe.js
+inspectColumns.js
+populate.js
