@@ -16,6 +16,8 @@ app.use('/api/pedidos', pedidosRouter);
 app.use('/api/health', healthRouter);
 app.use('/', healthRouter);
 app.use('/api/pedidos/homologados', homologadosRouter)
+// Alias para manter compatibilidade com versões anteriores
+app.use('/api/pedidos_homologados', homologadosRouter);
 
 // Executa o script principal
 async function main() {
