@@ -70,6 +70,12 @@ informações relacionadas. A resposta possui o formato:
 }
 ```
 
+### `GET /api/pedidos/homologados`
+Retorna apenas os pedidos que possuem MDF-e homologado, no mesmo formato do endpoint `/api/pedidos`.
+
+### `GET /api/pedidos_homologados`
+Alias para `/api/pedidos/homologados`.
+
 ## Observações
 - O projeto requer Node.js 16 ou superior e Firebird 2.5.
 - O script `api_rest.js` pode ser executado para expor os dados via HTTP.
