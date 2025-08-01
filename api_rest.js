@@ -15,7 +15,7 @@ app.use(express.json());
 app.use('/api/pedidos', pedidosRouter);
 app.use('/api/health', healthRouter);
 app.use('/', healthRouter);
-app.use('/api/pedidos_homologados', homologadosRouter)
+app.use('/api/pedidos/homologados', homologadosRouter)
 
 // Executa o script principal
 async function main() {
